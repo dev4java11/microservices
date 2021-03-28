@@ -1,0 +1,9 @@
+server:
+  port: 9020
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
